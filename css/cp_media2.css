@@ -15,8 +15,16 @@
 
 /* Media Styles */
 
-
-
+audio, video {
+   width:95%;
+   margin: 20px auto;
+}
 
 /* Track Styles */
 
+::cue {
+   background-color: transparent;
+   text-shadow: rgb(255,177,66) 1px 1px 2px;
+   color:rgb(255,177,66);
+   font: 1.2em sans-serif;
+}
